@@ -1,0 +1,4 @@
+# This is a work-in-progress redesign preview, not the live site.
+# Live site is https://www.imanjamall.com — leave this preview out of search results.
+User-agent: *
+Disallow: /
