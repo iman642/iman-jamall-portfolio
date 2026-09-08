@@ -15,12 +15,17 @@ Actively in progress. Open items — missing images, facts to confirm, sections 
 index.html        About / home
 work.html         Work grid, filterable by tag
 work/*.html       Individual case studies
-press.html        Education, fellowships, awards, verified press coverage
+press.html        Academics, fellowships, awards, verified press coverage
 resume.html       Embeds iman-jamall-cv.pdf
 styles.css        Shared design system (color, type, layout tokens)
 images/           Real assets pulled from source decks/reports where found
+copy/*.md         Plain-text copy of every page — read/edit this, not the HTML,
+                   when you just want to change what something says. Each file
+                   also carries its own open questions/flags at the bottom.
 404.html          Custom not-found page
 ```
+
+**To change what a page says:** edit the matching file in `copy/`, then ask Claude to sync that into the HTML (or hand-edit the HTML directly if you're comfortable with it — `copy/` is the source of truth for wording, the HTML is the source of truth for layout).
 
 ## Local development
 
