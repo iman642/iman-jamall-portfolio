@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Listening at Scale — Iman Jamall</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="../styles.css">
+<style>
+.triad-fig{background:var(--panel); border:1px solid var(--rule); border-radius:4px; padding:28px; max-width:420px;}
+.triad-fig svg{width:100%; height:auto;}
+.triad-fig .cap{font-size:12px; color:var(--ink-faint); font-family:"IBM Plex Mono",monospace; margin-top:12px;}
+</style>
+</head>
+<body>
+
+<header class="site">
+  <a class="word" href="../index.html">Iman Jamall</a>
+  <nav>
+    <a href="../index.html">About</a>
+    <a href="../work.html" class="active">Work</a>
+    <a href="../press.html">Press</a>
+    <a href="../resume.html">Resume</a>
+  </nav>
+</header>
+
+<main>
+  <div class="case-hero">
+    <span class="tag">Foresight · Public health · Research</span>
+    <h1>Listening at Scale: Youth Futures Research</h1>
+    <div class="sub">Foresight research for a UN health agency, via SOIF · c. 2020</div>
+  </div>
+
+  <div class="meta">
+    <div><div class="k">Role</div><div class="v">Foresight Practitioner, SOIF</div></div>
+    <div><div class="k">Team</div><div class="v">School of International Futures</div></div>
+    <div><div class="k">Timeline</div><div class="v">c. 2020</div></div>
+    <div><div class="k">Method</div><div class="v">SenseMaker + R/NLP</div></div>
+  </div>
+
+  <div class="case-body">
+
+    <div class="triad-fig">
+      <svg viewBox="0 0 300 270">
+        <polygon points="150,20 20,240 280,240" fill="none" stroke="currentColor" stroke-opacity="0.3" stroke-width="1.5"/>
+        <line x1="85" y1="130" x2="215" y2="130" stroke="currentColor" stroke-opacity="0.15" stroke-dasharray="3,3"/>
+        <line x1="118" y1="75" x2="150" y2="240" stroke="currentColor" stroke-opacity="0.15" stroke-dasharray="3,3"/>
+        <line x1="182" y1="75" x2="150" y2="240" stroke="currentColor" stroke-opacity="0.15" stroke-dasharray="3,3"/>
+        <g fill="#4b3f6b" fill-opacity="0.55">
+          <circle cx="120" cy="95" r="3"/><circle cx="135" cy="105" r="3"/><circle cx="150" cy="88" r="3"/>
+          <circle cx="105" cy="150" r="3"/><circle cx="160" cy="140" r="3"/><circle cx="180" cy="160" r="3"/>
+          <circle cx="90" cy="200" r="3"/><circle cx="130" cy="210" r="3"/><circle cx="170" cy="205" r="3"/>
+          <circle cx="200" cy="190" r="3"/><circle cx="145" cy="170" r="3"/><circle cx="115" cy="180" r="3"/>
+        </g>
+        <text x="150" y="12" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" fill="currentColor" opacity="0.6">reaffirming</text>
+        <text x="10" y="258" text-anchor="start" font-family="IBM Plex Mono, monospace" font-size="10" fill="currentColor" opacity="0.6">evolving</text>
+        <text x="290" y="258" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="10" fill="currentColor" opacity="0.6">challenging</text>
+      </svg>
+      <div class="cap">Illustrative SenseMaker triad — sample data only, not the real dataset</div>
+    </div>
+
+    <div>
+      <h4>Context</h4>
+      <p>Working with SOIF, I ran the SenseMaker-based research and analysis for a foresight engagement commissioned by a UN health agency, exploring how young people around the world think about the future — of the world, and of their own health — in the middle of the COVID-19 pandemic. Rather than a single survey, participants contributed ongoing weekly narratives and ad hoc journal entries over several months, generating hundreds of coded micro-narratives from across the agency's member countries and beyond.</p>
+    </div>
+
+    <div>
+      <h4>Analysis</h4>
+      <p>I built the full analysis pipeline in R: cleaning and structuring raw SenseMaker exports, running topic modeling (LDA/STM) and lemmatized text analysis to surface recurring themes across hundreds of free-text entries, and producing the ternary "triad" plots SenseMaker is built around — splitting results by region, gender, and age to see where patterns actually diverged rather than assuming they would.</p>
+    </div>
+
+    <div>
+      <h4>Findings</h4>
+      <p>Respondents in the agency's own member countries placed less agency in communities and more in institutions than participants elsewhere, and technology dominated visions of the future for both groups — not always positively. Trust in institutions surfaced unevenly: the multilateral system, government, police and judiciary, media, academia, and finance all drew explicit skepticism, and institutions were more present in general stories about the future than in stories specifically about health.</p>
+      <p>Among female participants specifically, a clear plurality of entries suggested the experience was evolving existing views on the future rather than overturning them outright — challenging established thinking was notably less common. Women's entries also skewed further into the future and more toward health-related themes than men's, while men reported a more motivated emotional tone overall.</p>
+    </div>
+
+    <div>
+      <h4>Engagement design</h4>
+      <p>Participation held up despite a demanding weekly cadence: the large majority of participants wanted to keep engaging as a group afterward, driven less by the tool itself than by the chance to influence the commissioning agency's actual strategy and a sense of contributing to something collective.</p>
+    </div>
+
+  </div>
+
+  <div class="case-nav">
+    <a href="gstc.html">← GSTC — Urban Food Futures</a>
+    <a href="../work.html">Back to Work →</a>
+  </div>
+</main>
+
+<footer class="site">
+  <span>Iman Jamall © 2026</span>
+  <span>Karachi · London</span>
+</footer>
+
+</body>
+</html>

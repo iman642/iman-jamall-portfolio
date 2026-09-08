@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Work — Iman Jamall</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="styles.css">
+<script>
+function filterWork(tag, btn){
+  document.querySelectorAll('.filters button').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  document.querySelectorAll('.grid-item').forEach(function(item){
+    var tags = item.dataset.tags.split(' ');
+    item.style.display = (tag === 'all' || tags.includes(tag)) ? '' : 'none';
+  });
+}
+</script>
+</head>
+<body>
+
+<header class="site">
+  <a class="word" href="index.html">Iman Jamall</a>
+  <nav>
+    <a href="index.html">About</a>
+    <a href="work.html" class="active">Work</a>
+    <a href="press.html">Press</a>
+    <a href="resume.html">Resume</a>
+  </nav>
+</header>
+
+<main>
+  <div class="page-head">
+    <div class="eyebrow">Selected work</div>
+    <h1>Products, research &amp; foresight</h1>
+    <p>Seven engagements spanning fintech product design, participatory foresight research, and education — filterable by kind.</p>
+  </div>
+
+  <div class="filters">
+    <button class="active" onclick="filterWork('all', this)">All</button>
+    <button onclick="filterWork('fintech', this)">Fintech</button>
+    <button onclick="filterWork('foresight', this)">Foresight</button>
+    <button onclick="filterWork('education', this)">Education</button>
+  </div>
+
+  <div class="grid">
+
+    <a class="grid-item" href="work/bachatbox.html" data-tags="fintech">
+      <div>
+        <div class="meta-line">Fintech · Consumer · 0 to 1</div>
+        <h3>BachatBox: Designing for Trust</h3>
+        <div class="desc">A savings &amp; investment platform for financially excluded women, built out of a FIWC grant.</div>
+      </div>
+      <div class="yr">2024</div>
+    </a>
+
+    <a class="grid-item" href="work/pivot.html" data-tags="fintech">
+      <div>
+        <div class="meta-line">Fintech · Lending · Systems design</div>
+        <h3>Systems Thinking and Equity: Pivot</h3>
+        <div class="desc">A strategic pivot to embedded financing — the loan origination platform behind it.</div>
+      </div>
+      <div class="yr">2023</div>
+    </a>
+
+    <a class="grid-item" href="work/behavioural-design.html" data-tags="fintech">
+      <div>
+        <div class="meta-line">Fintech · Behavioural design</div>
+        <h3>Behavioural Design: Digital Ledger</h3>
+        <div class="desc">Turning paper "khatas" into a free digital ledger for small retailers.</div>
+      </div>
+      <div class="yr">2024</div>
+    </a>
+
+    <a class="grid-item" href="work/personas.html" data-tags="fintech">
+      <div>
+        <div class="meta-line">Fintech · Research</div>
+        <h3>Building Personas through Thick Data</h3>
+        <div class="desc">Six personas built from ethnography and data clustering to guide a lending strategy.</div>
+      </div>
+      <div class="yr">2021–22</div>
+    </a>
+
+    <a class="grid-item" href="work/gstc.html" data-tags="foresight">
+      <div>
+        <div class="meta-line">Foresight · Public health policy</div>
+        <h3>GSTC — Visualising an Equitable Urban Food Future</h3>
+        <div class="desc">What could London's food environment look like in 2035, and for whom?</div>
+      </div>
+      <div class="yr">2020–21</div>
+    </a>
+
+    <a class="grid-item" href="work/wpro.html" data-tags="foresight">
+      <div>
+        <div class="meta-line">Foresight · Public health · Research</div>
+        <h3>Listening at Scale: Youth Futures Research</h3>
+        <div class="desc">SenseMaker-based research into how young people think about the future of their own health.</div>
+      </div>
+      <div class="yr">2020</div>
+    </a>
+
+    <div class="grid-item status" data-tags="education foresight">
+      <div>
+        <div class="meta-line">Education · Consulting <span class="badge">In progress</span></div>
+        <h3>Habib University — Entrepreneurship Talent Program</h3>
+        <div class="desc">Designing Habib's first Entrepreneurship Talent Program. Case study to follow — no outcome data yet.</div>
+      </div>
+      <div class="yr">→ Dec 2026</div>
+    </div>
+
+  </div>
+</main>
+
+<footer class="site">
+  <span>Iman Jamall © 2026</span>
+  <span>Karachi · London</span>
+</footer>
+
+</body>
+</html>
