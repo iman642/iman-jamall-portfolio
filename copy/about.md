@@ -19,8 +19,8 @@ I hold an MPA in Science, Technology & Public Policy (Distinction) from UCL, an 
 ## Now strip
 
 - Co-Founder & Head of Design, CreditBook — 2020–2026
-- Consultant/Fellow, Habib University Entrepreneurship Talent Program — in progress → Dec 2026
+- Consultant/Fellow — country's first AI-ready entrepreneurship program (institution undisclosed per employment agreement) — in progress → Dec 2026
 - Terra.do LFA Fellow — completed Jul 2026
 
 ---
-**OPEN QUESTION:** does "CreditBook, 2020–2026" read right as a concluded chapter with Habib/Terra.do as current? Flagged in Housekeeping — not yet confirmed.
+**OPEN QUESTION:** does "CreditBook, 2020–2026" read right as a concluded chapter with the entrepreneurship-program consulting/Terra.do as current? Flagged in Housekeeping — not yet confirmed.

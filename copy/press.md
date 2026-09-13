@@ -8,7 +8,7 @@
 
 ## Fellowships & current
 - Terra.do LFA Fellowship — completed July 2026
-- Consultant/Fellow, Habib University Entrepreneurship Talent Program — in progress, expected December 2026
+- Consultant/Fellow, the country's first AI-ready entrepreneurship program (institution undisclosed per employment agreement) — in progress, expected December 2026
 
 ## Awards & panels
 - Speaker, "AI and Fintech Beyond Borders," Mobile World Congress Doha — 2025
@@ -25,4 +25,4 @@
 ---
 **Dropped, not confirmed:** "5M+ downloads" and TechCrunch coverage from earlier drafts — no source found for either. Send a link and they go back in.
 
-**Open:** Habib University role title — "Consultant" or "Fellow"? You gave both; needs one final pick for consistency across About and Press.
+**Open:** "Consultant" or "Fellow" as the title for the entrepreneurship-program work? You gave both; needs one final pick for consistency across About and Press.
